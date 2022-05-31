@@ -208,5 +208,6 @@ input:hover{
         top: 2vh;
         left: 600px;
         z-index: 2;
+        display:none;
     }
   }
