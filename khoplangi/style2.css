@@ -1,0 +1,28 @@
+@media only screen and (max-width: 1000px) {
+  #products-dd{
+    display: none;
+}
+#search{
+  margin-left: 3vw;
+  
+}
+.carousel-indicators{
+  display: none;
+}
+#carouselExampleCaptions{
+  width: 100vw;
+}
+.slider-img{
+  width: 88vw;
+}
+}
+@media only screen and (max-width: 800px){
+  .prod-nav{
+   margin-left: 10px;       
+  }
+  #prod-row{
+    border-radius: 0;
+
+  }
+  
+  }
