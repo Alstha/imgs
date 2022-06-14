@@ -5,6 +5,13 @@ $(document).ready(function(){
         $("#middle").css("margin-top","60px")
 
     })
+    $(".msg-close").on("click",function(){
+        $("#msg-box").css('display','none')
+    })
+    $(".msg-btn").on("click",function(){
+        $(".msg-close").css('display','inline-block')
+        $("#msg-box").css('display','flex')
+    })
     $(".prvnext").on("click",function(){
     
         $(".carousel-item").css("margin-top","0px")
