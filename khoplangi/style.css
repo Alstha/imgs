@@ -358,10 +358,100 @@ body{overflow-x: hidden;}
 #msg-top h5{
     margin-top: 3px;
 }
+.msg-close{
+    display: inline-block;
+}
+.msg-close:hover{color: rgb(255, 217, 0);}
 #inbox{
     margin-top: 7px;
     width: 215px;
     height: 200px;
-    background: rgba(255, 255, 0, 0.607);
-    
+    background: rgba(62, 102, 100, 0.607);
+    border-radius: 10px;
+    box-shadow: inset 1px 1px 10px white;
+}
+#admin,#user{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 12px;
+    filter: blur(3px);
+}
+.admin ,.user{
+    padding: 7px;
+    background: rgb(227, 205, 164);
+    border-radius: 50%;
+    border: 1px solid red;
+    color: black;
+
+}
+.user{
+    background: rgb(158, 219, 166);
+}
+#ad-msg,#us-msg{
+    background: rgb(227, 205, 164);
+    border-radius: 12px;
+    border: 1px solid red;
+    padding: 5px;
+    max-width: 90%;
+    margin-left: 10px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#us-msg{
+    background: rgb(158, 219, 166);
+
+}
+#msg-write{
+    width: fit-content;
+    filter: blur(1.2px);
+    padding: 5px 15px;
+    background: rgb(201, 192, 192);
+    border-top: 2px solid #000;
+    margin-top: 12px;
+}
+.msg-cmt{
+    width: 150px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 2px;
+}
+.msg-send{
+    border-radius: 50%;
+    background: yellow;
+    margin-left: 12px;
+    cursor: pointer;
+    padding: 7px;
+}
+.msg-send:hover{
+    background: rgb(255, 255, 255);
+}
+#ex-msg{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   
+    height: 88%;
+    margin-top: 12%;
+    flex-direction: column;
+}
+.msgls{
+    width: 90px;
+    border-radius: 12px;
+    font-weight: 900;
+    padding: 5px;
+    border: 5px ridge black;
+    box-shadow: 7px 7px 12px black;
+    background: rgb(202, 119, 237);
+}
+.msgls:first-child{
+    background: orange;
+}
+.msgls:hover{
+    background: black;
+    color: white;
+    box-shadow: 7px 7px 12px rgb(255, 255, 255);
+
 }
