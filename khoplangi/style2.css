@@ -1,0 +1,144 @@
+@media only screen and (max-width: 1000px) {
+  #products-dd{
+    display: none;
+}
+#search{
+  margin-left: 3vw;
+  
+}
+.carousel-indicators{
+  display: none;
+}
+#carouselExampleCaptions{
+  width: 100vw;
+}
+.slider-img{
+  width: 88vw;
+}
+.nav-more{
+  display: none;
+}
+.nav-search{
+  width:20vw;
+  margin-left: -40vw;
+}
+.nav-prod{
+  margin-top: 25px;
+  background: rgba(20, 20, 20, 0.458);
+}
+.active{display: none;}
+.nav-sign{
+  transform: scale(0.75);
+}
+.nav-cart{margin-left: 15px;}
+.nav-dropdown{
+  background: none;
+  box-shadow: none;
+}
+}
+@media only screen and (max-width: 750px){
+  .nav-cart{
+    display: none;
+  }
+  .nav-prod{
+    margin-left: -100px;
+    background: none;
+    box-shadow: none;
+  }
+  .nav-dropdown{
+    background: none;
+    box-shadow: none;
+  }
+  .mob-nav-dropdown{
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: 1px 1px 12px rgba(255, 255, 255, 0);
+  }
+}
+@media only screen and (max-width: 1300px) {
+  .nav-search{
+  width:30vw;
+  margin-left: -40vw;
+
+}
+}
+
+@media only screen and (max-width: 450px){
+ 
+  
+  .mob-more{
+    display: block;
+  }
+  .nav-sign{
+    position: absolute;
+    right: -10px;
+    top: 10px;
+    transform: scale(0.5);
+
+  }
+  .d-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -40px;
+   
+    width: 100vw;
+  }
+  #mainall{
+    margin-top: 2px;
+  }
+  #carouselExampleCaptions{
+    height: 170px;
+  }
+  .carousel-item{
+    height: 165px;
+    width: 95%;
+  }
+  .slider-img{
+    width: 100%;
+    height: 100%;
+    margin-left: 10px;
+  }
+  #prod-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 10px;
+    height: fit-content;
+    width: 97%;
+    margin-left: 1.5%;
+    transition: all 2s;
+  }
+    .prod-nav{
+      margin-left: 1px;
+      transform: scale(0.77);
+      background: grey;
+    }
+    .pn{background: grey; display: none;}
+  #kitchen1{
+    margin-left: 2px;
+  }
+  #nav-more2{
+    margin-left: 40%;
+    margin-top: -15px;
+    padding: 5px;
+    font-weight: 800;
+    background: rgb(174, 149, 237);
+    border-radius: 15px;
+    display: block;
+   
+  }
+  #prod-row-txt{
+    margin-left: 12vw;
+  }
+  .msg-btn{
+    margin: 20px 20px;
+    transform: scale(1.5);
+  }
+  #mobmore{
+    display: none;
+  }
+  #msg-box{
+    margin-left: 22px;
+  }
+  
+}
+  
