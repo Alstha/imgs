@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Creepster&family=Fjalla+One&family=Righteous&family=Sansita+Swashed:wght@700&family=Secular+One&family=Supermercado+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Creepster&family=Fjalla+One&family=Righteous&family=Roboto+Condensed:wght@700&family=Sansita+Swashed:wght@700&family=Secular+One&family=Supermercado+One&display=swap');
+
+*{margin: 0;padding: 0;box-sizing: border-box;
+    /* overflow-x: hidden; */
+
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgb(0, 0, 0);
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+    
+  }
+::-webkit-scrollbar-thumb {
+    background-color: rgb(255, 255, 255);
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+#top{
+    width: 100vw;
+    height: 15vh;
+    user-select: none;
+    border-bottom: 2px solid black;
+    box-shadow: 2px 5px 10px grey;
+    background: rgba(128, 128, 128, 0.374);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.11vh;
+}
+
+#logo1{
+    border-radius: 50%;
+    border: 1px solid black;
+    width: 7vw;
+    height: 6vw;
+    
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+
+}
+h2{
+    font-family: 'Righteous', cursive;
+    margin-left: 1.5vw;
+    font-size:2.5vw;
+    text-shadow: 1px 2px 4px rgb(255, 0, 0);
+}
+#login,#signup{
+    width: 100vw;
+    height: 100vh;
+    background: rgba(255, 0, 0, 0.464);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+#signup{
+    background: rgba(43, 0, 255, 0.315);
+    
+    padding-top: 100px;
+}
+#topic,#topic2{
+    /* margin-top: -3vh;
+    margin-left: -500px; */
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    
+    font-size: 22px;
+    font-family: cursive;
+}
+#lbox,#lbox2{
+    margin-top: -5vh;
+    width: 440px;
+    height: 430px;
+    border: 2px double white;
+    box-shadow: 5px 5px 10px white;
+    background: rgba(255, 0, 0, 0.342);
+    border-radius: 33px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    overflow-x: visible;
+}
+
+#lbox2{
+    width: 500px;
+    height: 550px;
+}
+#names,#names2{
+    display: flex;
+    flex-direction: row;
+    
+}
+#logo2{
+    border-radius: 50%;
+    width: 145px;
+    height: 135px;
+    margin-top: -70px;
+    border: 5px solid rgb(0, 0, 0);
+    box-shadow: 0 15px 15px rgb(0, 0, 0);
+}
+#main,#main2{
+    background: rgba(188, 161, 161, 0.464);
+
+    height: 340px;
+    display: flex;
+    padding-bottom: 110px;
+    flex-direction: column;
+    align-items: center;
+    width: 85%;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 35px;
+}
+#main2{
+    height: fit-content;
+    padding: 20px 0;
+    background: rgb(161, 161, 188);
+    box-shadow: 10px 10px 12px rgba(128, 128, 128, 0.526);
+}
+#marq{
+    margin: 5px;
+    color: #c3c3c3;
+}
+input,option,select{
+    width: 80%;
+    height: 40px;
+    margin: 10px;
+    font-size: 22px;
+    font-weight: bolder;
+    
+    border: 2px ridge black;
+    box-shadow: 5px 5px 7px rgb(197, 193, 193);
+    border-radius: 20px;
+    text-align: center;
+    overflow: hidden;
+    
+}
+select{
+    width: fit-content;
+    transform: scale(0.8);
+}
+#main span{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 175px;
+    font: 1.3em cursive;
+    color: aliceblue;
+    
+}
+.logico{
+    margin-left: -250px;
+    margin-top: 37px;
+    position: absolute;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 50%;
+    border: 1.5px dotted rgb(255, 0, 0);
+}
+.fa-key{
+    margin-top: 97px;
+}
+
+input:focus{
+    background: rgb(79, 79, 79);
+    color: antiquewhite;
+    transition: 0.4s;
+    box-shadow: 2px 2px 10px rgb(238, 255, 0);
+}
+input:hover{
+    color: black;
+    background: rgb(203, 203, 203);
+}
+#btnmain h3{
+    font: 15px sans-serif;
+    color: #fefefe;
+    
+}
+#btn,#btn2{
+    /* background: red; */
+    margin-top: 15px;
+    padding-left: 50px;
+}
+#btnmain button ,#btn2 button{
+    font-size: 20px;
+    background: rgba(255, 0, 0, 0.464);
+    
+    margin-top: 7px;
+    padding: 5px;
+    border-radius: 12px;
+    color: rgb(242, 242, 242);
+    font-family: 'Secular One', sans-serif;
+    cursor: pointer;
+    border: 1px solid white;
+    transition: all 0.35s;
+}
+#signin1,#login2{
+    margin-left: -10px;
+    
+    
+}
+#login1,#signin2{
+    box-shadow: 3px 3px 10px white;
+    margin-left: 150px;
+}
+#btnmain button:hover ,#btn2 button:hover{
+    background: rgba(249, 249, 249, 0.371);
+    color: rgb(0, 0, 0);
+    box-shadow: 3px 3px 0px rgb(0, 0, 0);
+}
+#btnmain button:active , #btn2 button:active{
+    background: rgba(255, 0, 0, 0.371);
+    
+
+}
+#other-way{
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 15px;
+    
+}
+
+
+#other-way img{
+    margin-left: 5px;
+    box-shadow: 2px 2px 12px black;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+#other-way img:hover{
+    transform: scale(1.2);
+}
+
+@media only screen and (max-width: 600px),(max-height:520px) {
+    #login{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    #lbox{
+      transform: scale(0.72);
+      
+    }
+    #top{
+        display: none;
+    }
+    .logico{
+        display: none;
+    }
+    .fa-solid{
+        visibility: hidden;
+        margin-left: -1000px;
+        width: 0px;
+    }
+    #topic{
+        
+        display: none;
+    }
+    *{transition: all 1s;}
+
+  }
+@media only screen and (max-width: 650px),(max-height:530px) {
+    #signup{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    *{transition: all 1s;}
+    #lbox2{
+      transform: scale(0.71);
+      padding-bottom: 15px;
+    }
+    #top{
+        display: none;
+    }
+    
+    #topic{
+        
+        display: none;
+    }
+  }
