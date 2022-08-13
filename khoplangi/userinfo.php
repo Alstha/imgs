@@ -1,9 +1,9 @@
 <?php
-$con = mysqli_connect('localhost','root');
+$con = mysqli_connect('localhost','id19378879_alson','Et~n1OY^i/S_Je_&');
 
 
 
-mysqli_select_db($con,'tes');
+mysqli_select_db($con,'id19378879_alson');
 
     $name = $_POST['name'];
     $gender = $_POST['gender'];
@@ -16,7 +16,7 @@ mysqli_select_db($con,'tes');
     
 
     
-    $emailquery="select * from tes where email='$email'";
+    $emailquery="select * from dge where email='$email'";
     $query2=mysqli_query($con,$emailquery);
     $emailcount = mysqli_num_rows($query2);
 
@@ -26,7 +26,7 @@ mysqli_select_db($con,'tes');
     }
     else{
         if($pass === $cpass){
-            $query ="insert into tes (name, gender, email, pass)
+            $query ="insert into dge (name, gender, email, pass)
             values ('$name','$gender','$email','$pass')";
 
             $iquery=mysqli_query($con,$query);
