@@ -257,7 +257,7 @@ body{overflow-x: hidden;}
 /* mobile change */
 /* MIDDLE */
 #mainall{
-    margin-top: 65px;
+    margin-top: 0px;
     width: 100vw;
     height: 670vh;
     background: rgba(188, 130, 238, 0.64);
