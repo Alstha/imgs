@@ -197,6 +197,7 @@
   }
   #mainall{
     margin-top: 0vh;
+    display:none;
   }
   #carouselExampleCaptions{
     height: 170px;
