@@ -263,7 +263,7 @@ body{overflow-x: hidden;}
     background: rgba(188, 130, 238, 0.64);
     z-index: 1;
     overflow: hidden;
-    
+    display: none;
 }
 #middle{
    margin-top: 2px;
