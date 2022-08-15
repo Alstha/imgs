@@ -126,6 +126,14 @@
 }
 
 @media only screen and (max-width: 450px){
+  #loader{
+    width: 200vw;
+    margin-left: -75vw;
+    transform: scale(0.5);
+    
+   
+    
+  }
   .psale1mob{
     overflow: visible;
   }
