@@ -218,10 +218,13 @@ var topic=document.querySelectorAll(".prodtopic")
 var bsb=document.querySelectorAll("#back-sb")
 
 
-var load=document.getElementById('loader');
+
+var load=document.getElementById('loader2')
+var kitmain=document.getElementById('kitmain')
         
         function onloads(){
             load.style.display="none"
+            kitmain.style.display="flex";
         }
 
 $(document).ready(function(){
