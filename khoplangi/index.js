@@ -1,5 +1,6 @@
 
 var nm2=document.getElementById('nav-more2')
+var midall=document.getElementById('mainall')
 
 
 $(document).ready(function(){
@@ -194,6 +195,7 @@ $(document).ready(function(){
         var load=document.getElementById('loader');
         
         function onloads(){
-            load.style.display="none"
+            midall.style.display="block";
+            load.style.display="none";
         }
         
