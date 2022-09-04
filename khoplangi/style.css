@@ -97,7 +97,7 @@ body{overflow-x: hidden;}
 }
 
 #mob-more2{
-    margin-top: -35vh;
+    margin-top: -0vh;
     
 }
 .nav-prod2{
@@ -126,12 +126,12 @@ body{overflow-x: hidden;}
     border-radius: 15px;
     box-shadow: 2px 2px 12px white;
     position: absolute;
-    top: 100px;
+    top: 90px;
     left: -55vw;
     font-family: 'Secular One', sans-serif;   
     background-color: rgba(230, 230, 230, 0.851);
     width: 120vw;
-    height: 100vh;
+    height: 110vh;
     z-index: 12;
 }
 /* OP nav-prod */
@@ -236,12 +236,13 @@ body{overflow-x: hidden;}
 }
 .more-cc{
     width: 100%;
-    background-color: rgba(128, 128, 128, 0.315);
+    background-color: rgba(128, 128, 128, 0.192);
     text-align: center;
     padding: 7px 0;
+   
     border-radius: 7px;
     margin-top: 5px;
-    text-shadow: 1px 1px 1px purple;
+    text-shadow: 1px 1px 1px rgb(13, 13, 65);
     
 }
 .more-cc:hover{
@@ -609,15 +610,18 @@ body{overflow-x: hidden;}
 #loader{
     width: 100vw;
     height: 90vh;
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
     z-index: 999;
     position: fixed;
     background: white;
 }
 #loader img{
+    width: 100vw;
+    z-index: 999999;
+    height: 100vh;
     
-    height: 90vh;
-    margin-left: 20vw;
     margin-top: 1vh;
 }
 
@@ -856,7 +860,7 @@ footer{
     
     width: 100vw;
     height: 70vh;
-    background: rgb(197, 197, 197);
+    background: rgb(241 241 241);
 }
 #feed-back{
     background: rgb(255, 234, 234);
