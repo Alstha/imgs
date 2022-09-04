@@ -26,6 +26,7 @@
 }
 .nav-more{
   display: none;
+
 }
 .nav-search{
   width:20vw;
@@ -38,6 +39,7 @@
 .active{display: none;}
 .nav-sign{
   transform: scale(0.75);
+  color: rgb(0, 0, 0);
 }
 .nav-cart{margin-left: 15px;}
 .nav-dropdown{
@@ -128,13 +130,14 @@
 
 @media only screen and (max-width: 450px){
   #loader{
-    width: 200vw;
-    margin-left: -75vw;
-    transform: scale(0.5);
+    width: 00vw;
+    margin-left: 1vw;
+    
     
    
  
   }
+  .more-cc{font-size: 25px;}
   .psale1mob{
     overflow: visible;
   }
@@ -180,6 +183,8 @@
   }
   .mob-more{
     display: block;
+  color: rgb(0, 0, 0);
+
   }
   .nav-sign{
     position: absolute;
