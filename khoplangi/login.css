@@ -5,7 +5,21 @@
     /* overflow-x: hidden; */
 
 }
-
+#back{
+    border-radius: 50%;
+    padding: 7px;
+    background: rgba(255, 255, 255, 0.335);
+    cursor: pointer;
+    z-index: 9000;
+    position: absolute;
+    margin-top: -520px;
+    margin-left: -355px;
+    transition: .3s;
+    text-decoration: none;
+}
+#back:hover{
+    background: white;
+}
 ::-webkit-scrollbar {
     width: 0px;
 }
@@ -77,6 +91,7 @@ h2{
     font-family: cursive;
 }
 #lbox,#lbox2{
+    
     margin-top: -5vh;
     width: 440px;
     height: 430px;
@@ -259,6 +274,18 @@ input:hover{
     #lbox{
       transform: scale(0.72);
       
+    }
+    #back{
+        border-radius: 50%;
+        padding: 7px;
+        background: rgba(255, 255, 255, 0.335);
+        cursor: pointer;
+        z-index: 9000;
+        position: absolute;
+        margin-top: -700px;
+        margin-left: -0px;
+        transition: .3s;
+        text-decoration: none;
     }
     #top{
         display: none;
