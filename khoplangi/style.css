@@ -668,16 +668,16 @@ body{overflow-x: hidden;}
 
 .acprise1{
     display: block;
-    background: rgb(59, 13, 71);
+    background: rgba(168, 90, 187, 0.356);
     position: absolute;
     bottom: 40px;
     z-index: 4;
     width: 100%;
     font-weight: 900;
-    color: wheat;
+    color: rgb(83, 0, 58);
     
-    height: 1px;
-    border-top: 1px solid #000;
+    height: 33px;
+    /* border-top: 1px solid #000; */
     text-align: center;
     transition: all 0.4s;
     padding-top: 10px;
@@ -702,6 +702,10 @@ body{overflow-x: hidden;}
 }
 .ps1s:hover .acprise1{
     height: 40px;
+    margin-bottom: -15px;
+    background: rgb(59, 13, 71);
+    color: wheat;
+
 }
 .ps1s:hover img{
     transform: scale(1.2);
