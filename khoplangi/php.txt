@@ -1,0 +1,40 @@
+<!--
+<?php
+$insert = false;
+if(isset($_POST['name'])){
+    // Set connection variables
+    $server = "localhost";
+    $username = "root";
+    $password = "";
+    
+
+
+    $con = mysqli_connect($server, $username, $password);
+
+
+    if(!$con){
+        die("connection to this database failed due to" . mysqli_connect_error());
+    }
+  
+    $name = $_POST['name'];
+    $gender = $_POST['gender'];
+    
+    $email = $_POST['email'];
+    
+    $pass = $_POST['pass'];
+    $sql = "INSERT INTO `tes`.`tes` (`name`, `gender`, `email`, `pass`) VALUES ('$name', '$gender', '$email', '$pass');";
+    
+    
+    if($con->query($sql) == true){
+       
+        $insert = true;
+    }
+    else{
+        echo "ERROR: $sql <br> $con->error";
+    }
+
+    
+    $con->close();
+}
+?>
+  -->
