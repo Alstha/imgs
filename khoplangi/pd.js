@@ -1,9 +1,12 @@
 
+var pd=document.getElementById('proddiv')
 
 var ppimg=document.getElementById("prodimg")
 var ptitle=document.getElementById("title")
 var pperprice=document.getElementById("perprice")
 
+
+var pd=document.getElementById('proddiv')
 
 $(document).on('click','.ps1s',function(){
   $(this).addClass('dif').siblings().removeClass('dif');
@@ -15,7 +18,8 @@ $(document).on('click','.ps1s',function(){
 })
 $(document).on('click','.dif',function(){
   pd.style.display='block'
-  midall.style.filter="blur(7px)"
+  pd.style.backgroundColor="#ffffffcc"
+
   var pimgs=document.querySelector('.pimgs')
   $('.allimgs').css('width','170px');    
      
@@ -43,7 +47,8 @@ $(document).on('click','#cancel',function(){
 
 
   pd.style.display='none'
-  midall.style.filter="blur(0px)"
+
+
   $('.ps1s').removeClass('dif');
   $('.allimgs').removeClass('pimgs');    
   $('.pn1').removeClass('ptitle');    
