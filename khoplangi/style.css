@@ -900,3 +900,16 @@ footer{
     justify-content: center;
     
 }
+.nodprice{
+    text-decoration: line-through;
+    font: .8em sans-serif;
+    color: #e7e7ec;
+    z-index: 90;
+    margin-right: -150px;
+    margin-bottom: -200px;
+
+}
+#nodprod{
+    margin-left: 177px;
+    margin-top: -20px;
+}
